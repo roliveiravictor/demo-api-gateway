@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1EA1664CA2199826961E9B /* Pods_API_Gateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB841B6A15D608722EE6DA0 /* Pods_API_Gateway.framework */; };
+		4A6ED89421BAD84E005275AE /* PETPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6ED88B21BAD84C005275AE /* PETPet.swift */; };
+		4A6ED89521BAD84E005275AE /* PETPetStoreClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6ED88C21BAD84C005275AE /* PETPetStoreClient.swift */; };
+		4A6ED89621BAD84E005275AE /* PETNewPetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6ED88D21BAD84C005275AE /* PETNewPetResponse.swift */; };
+		4A6ED89721BAD84E005275AE /* PETPetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6ED88E21BAD84D005275AE /* PETPetType.swift */; };
+		4A6ED89821BAD84E005275AE /* PETPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6ED88F21BAD84D005275AE /* PETPets.swift */; };
+		4A6ED89921BAD84E005275AE /* PETNewPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6ED89021BAD84D005275AE /* PETNewPet.swift */; };
+		4A6ED89A21BAD84E005275AE /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6ED89221BAD84E005275AE /* Empty.swift */; };
 		4ADF4C6221BACBF300296A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF4C6121BACBF300296A88 /* AppDelegate.swift */; };
 		4ADF4C6421BACBF300296A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF4C6321BACBF300296A88 /* ViewController.swift */; };
 		4ADF4C6721BACBF300296A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF4C6521BACBF300296A88 /* Main.storyboard */; };
@@ -15,6 +23,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DB841B6A15D608722EE6DA0 /* Pods_API_Gateway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_API_Gateway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0D56B4084D3F4CB68F7519 /* Pods-API Gateway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-API Gateway.debug.xcconfig"; path = "Pods/Target Support Files/Pods-API Gateway/Pods-API Gateway.debug.xcconfig"; sourceTree = "<group>"; };
+		4A6ED88B21BAD84C005275AE /* PETPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PETPet.swift; sourceTree = "<group>"; };
+		4A6ED88C21BAD84C005275AE /* PETPetStoreClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PETPetStoreClient.swift; sourceTree = "<group>"; };
+		4A6ED88D21BAD84C005275AE /* PETNewPetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PETNewPetResponse.swift; sourceTree = "<group>"; };
+		4A6ED88E21BAD84D005275AE /* PETPetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PETPetType.swift; sourceTree = "<group>"; };
+		4A6ED88F21BAD84D005275AE /* PETPets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PETPets.swift; sourceTree = "<group>"; };
+		4A6ED89021BAD84D005275AE /* PETNewPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PETNewPet.swift; sourceTree = "<group>"; };
+		4A6ED89121BAD84D005275AE /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSApiGatewayBridge.h; sourceTree = "<group>"; };
+		4A6ED89221BAD84E005275AE /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		4A6ED89321BAD84E005275AE /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
 		4ADF4C5E21BACBF300296A88 /* API Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADF4C6121BACBF300296A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADF4C6321BACBF300296A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,7 @@
 		4ADF4C6821BACBF600296A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ADF4C6B21BACBF600296A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ADF4C6D21BACBF600296A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720873ABB7C6D9329E0FE1F0 /* Pods-API Gateway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-API Gateway.release.xcconfig"; path = "Pods/Target Support Files/Pods-API Gateway/Pods-API Gateway.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1EA1664CA2199826961E9B /* Pods_API_Gateway.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5C7F7E67E511B17FB24704 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C0D56B4084D3F4CB68F7519 /* Pods-API Gateway.debug.xcconfig */,
+				720873ABB7C6D9329E0FE1F0 /* Pods-API Gateway.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4ADF4C5521BACBF300296A88 = {
 			isa = PBXGroup;
 			children = (
-				4ADF4C6021BACBF300296A88 /* API Gateway */,
+				4ADF4C6021BACBF300296A88 /* api_gateway */,
 				4ADF4C5F21BACBF300296A88 /* Products */,
+				1B5C7F7E67E511B17FB24704 /* Pods */,
+				BC6D750D56945E352FDA0393 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +83,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4ADF4C6021BACBF300296A88 /* API Gateway */ = {
+		4ADF4C6021BACBF300296A88 /* api_gateway */ = {
 			isa = PBXGroup;
 			children = (
+				4A6ED89121BAD84D005275AE /* AWSApiGatewayBridge.h */,
+				4A6ED89321BAD84E005275AE /* Bridging_Header.h */,
+				4A6ED89221BAD84E005275AE /* Empty.swift */,
+				4A6ED89021BAD84D005275AE /* PETNewPet.swift */,
+				4A6ED88D21BAD84C005275AE /* PETNewPetResponse.swift */,
+				4A6ED88B21BAD84C005275AE /* PETPet.swift */,
+				4A6ED88F21BAD84D005275AE /* PETPets.swift */,
+				4A6ED88C21BAD84C005275AE /* PETPetStoreClient.swift */,
+				4A6ED88E21BAD84D005275AE /* PETPetType.swift */,
 				4ADF4C6121BACBF300296A88 /* AppDelegate.swift */,
 				4ADF4C6321BACBF300296A88 /* ViewController.swift */,
 				4ADF4C6521BACBF300296A88 /* Main.storyboard */,
@@ -61,7 +102,15 @@
 				4ADF4C6A21BACBF600296A88 /* LaunchScreen.storyboard */,
 				4ADF4C6D21BACBF600296A88 /* Info.plist */,
 			);
-			path = "API Gateway";
+			path = api_gateway;
+			sourceTree = "<group>";
+		};
+		BC6D750D56945E352FDA0393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DB841B6A15D608722EE6DA0 /* Pods_API_Gateway.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ADF4C7021BACBF600296A88 /* Build configuration list for PBXNativeTarget "API Gateway" */;
 			buildPhases = (
+				086729A971CFE397F752C5DB /* [CP] Check Pods Manifest.lock */,
 				4ADF4C5A21BACBF300296A88 /* Sources */,
 				4ADF4C5B21BACBF300296A88 /* Frameworks */,
 				4ADF4C5C21BACBF300296A88 /* Resources */,
+				07E5CB5C915EA8E07061B49D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +181,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07E5CB5C915EA8E07061B49D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-API Gateway/Pods-API Gateway-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-API Gateway/Pods-API Gateway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		086729A971CFE397F752C5DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-API Gateway-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4ADF4C5A21BACBF300296A88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6ED89821BAD84E005275AE /* PETPets.swift in Sources */,
+				4A6ED89521BAD84E005275AE /* PETPetStoreClient.swift in Sources */,
+				4A6ED89721BAD84E005275AE /* PETPetType.swift in Sources */,
+				4A6ED89621BAD84E005275AE /* PETNewPetResponse.swift in Sources */,
 				4ADF4C6421BACBF300296A88 /* ViewController.swift in Sources */,
+				4A6ED89A21BAD84E005275AE /* Empty.swift in Sources */,
+				4A6ED89421BAD84E005275AE /* PETPet.swift in Sources */,
+				4A6ED89921BAD84E005275AE /* PETNewPet.swift in Sources */,
 				4ADF4C6221BACBF300296A88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,16 +379,19 @@
 		};
 		4ADF4C7121BACBF600296A88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0D56B4084D3F4CB68F7519 /* Pods-API Gateway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "API Gateway/Info.plist";
+				INFOPLIST_FILE = api_gateway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stonetree.API-Gateway";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = api_gateway/Bridging_Header.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +399,19 @@
 		};
 		4ADF4C7221BACBF600296A88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720873ABB7C6D9329E0FE1F0 /* Pods-API Gateway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "API Gateway/Info.plist";
+				INFOPLIST_FILE = api_gateway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stonetree.API-Gateway";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = api_gateway/Bridging_Header.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
